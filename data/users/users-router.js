@@ -10,4 +10,11 @@ router.get("/", (req, res) => {
     .catch(err => res.send(err));
 });
 
+router.post("/register", (req,res) => {
+  
+});
+router.post("/login", (req,res) => {
+
+});
+
 module.exports = router;
